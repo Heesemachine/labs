@@ -4,7 +4,7 @@ b = int(input("Друге число: "))
 c = int(input("Третє число: "))
 d = 1
 d = d+1
-if 3<=a<=9 or a in range(b,c):
+if 3<=a<=9 and a in range(b,c):
     while b<c:
         b=b+d
     print("Належить")
